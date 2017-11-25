@@ -1,0 +1,149 @@
+body{
+background-color: #fdeff9;
+
+}
+.navbar {
+  background: #03001e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   position: fixed;
+   width: 100%;
+}
+
+.wh {
+  color: black;
+  font-size: 3em;
+  font-variant: small-caps;
+  padding-top: 5%;
+}
+.wb {
+  color: black;
+  font-size: 2.5em;
+  font-style: small-caps;
+}
+.text-sm {
+  text-align: left;
+  color: black;
+  font-size: 1em;
+}
+.addon-info {
+  margin-top: 1%;
+}
+.text-big {
+  font-size: 2em;
+  text-align: left;
+
+}
+h1 {
+  font-family:inherit;
+  font-size: 10em;
+color: black;
+}
+.carousel-caption {
+  top: 40%;
+  bottom: -40%;
+
+}
+h2{
+  color: black;
+}
+.a1{
+  padding: 2em;
+   float: left;
+   width: 400px;
+     margin-left:9%;
+  }
+.a2{
+  padding: 2em;
+   float: left;
+   width: 400px;
+     margin-left:9%;
+}
+.a3{
+  padding: 2em;
+   float: left;
+   width: 400px;
+     margin-left:9%;
+}
+img{
+  width: 100%;
+
+}
+
+
+.pricing {
+  padding: 50px 0 80px;
+  text-align: center;
+  background-color:#ec38bc;
+}
+
+.pricing h2,
+.pricing p {
+  color: black;
+}
+
+.pricing p {
+  padding-bottom: 40px;
+}
+
+.pricing .packages {
+  padding: 30px;
+  border: 1px solid #7303c0;
+  background-color:#7303c0 ;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.packages li {
+  display: block;
+  padding: 5px;
+}
+
+.packages h4,
+.packages h1,
+.packages b {
+color: black;;
+}
+
+.packages p,
+.packages li {
+  color: black;
+}
+
+.packages button {
+  margin-top: 10px;
+  color: black;
+  background-color:#ec38bc;
+  border-color: black;
+}
+
+@media(max-width:768px) {
+
+  .pricing {
+    padding: 30px;
+  }
+
+  .packages {
+    width: 80%;
+    margin-left: 25px;
+  }
+}
+
+p{
+  color: black;
+}
+
+.hhh{
+  font-size: 5em;
+}
+footer{
+  background: #03001e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.dddg{
+  font-size: 3em;
+  font-family: inherit;
+  color: #000000;
+}
